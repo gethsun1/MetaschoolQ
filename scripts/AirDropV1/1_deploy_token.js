@@ -5,12 +5,12 @@ Web3 = require('web3');
 async function main() {
     
     //Metadata
-    const name = "Meta DAO";
-    const symbol = "Meta";
+    const name = "QuantumQuarser DAO";
+    const symbol = "QD";
     const decimals = 18; // or any other value you want
     const contractURI = "";
     const resource = "QRC20_RESOURCE";
-    const totalSupplyCap = Web3.utils.toWei('1000000000', 'ether');
+    const totalSupplyCap = Web3.utils.toWei('9000000000', 'ether');
 
     console.log("Deploying QRC20")
     const QRC20 = await ethers.getContractFactory("QRC20");
